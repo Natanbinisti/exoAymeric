@@ -20,3 +20,17 @@ alert('La moyenne est de ' + moyenne);
 
 
 //exo4
+let budget = 2000 ;
+let achats = 10500 ;
+
+if (budget > achats) {
+    alert('vous pouvez l acheter')
+}else   {
+    alert('vous pouvez pas l acheter')
+}
+
+//exo5
+
+let ht = prompt("HT :");
+let ttc =  ht *1.20;
+document.body.innerText = ttc
